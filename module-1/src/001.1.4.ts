@@ -16,7 +16,7 @@ let whereIsTheKey: undefined = undefined;
 // Array
 let friendsNamesAre: string[] = ['ashik', 'ali', 'nahin', 'rayan', 'ashraf'];;
 
-// tuple // which represents array, where array length is fixed so does types
+// tuple // which represents array, where array length is fixed so does each elements types
 let matchAndScores: [string, number, number] = ['rmaVSbayern', 2, 2]
 
 let a: string;

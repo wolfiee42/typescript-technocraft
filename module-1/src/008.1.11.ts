@@ -2,7 +2,6 @@
 
 
 
-// ternary operator
 const currentAge = 20;
 if (currentAge >= 18) {
     console.log('adult');
@@ -10,6 +9,7 @@ if (currentAge >= 18) {
     console.log('not adult');
 }
 
+// ternary operator
 const isAdult = currentAge >= 18 ? true : false;
 console.log({ isAdult });
 
@@ -26,7 +26,7 @@ console.log({ isAdult });
 const isAuthenticatedUser = undefined;
 // const isAuthenticatedUser = '';
 
-const result01 = isAuthenticatedUser ?? "Guest";
+const result01 = isAuthenticatedUser ?? "Guest"; //nullish coalscing operator
 const result02 = isAuthenticatedUser ? isAuthenticatedUser : "Guest";
 console.log({ result01 }, { result02 });
 

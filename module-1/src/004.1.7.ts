@@ -1,6 +1,5 @@
 // Spread Operator
 // Rest Operator
-// Destructuring
 
 
 // Spread operator
@@ -34,7 +33,7 @@ const greetFriends = (friend1: string, friend2: string, friend3: string) => {
     console.log(`hello! ${friend1} ${friend2} ${friend3}`);
 };
 
-greetFriends('ashik', 'nahin', 'ali'); // here the parameters are fixed. i can not increase or decrease my friends names means parameters. to resolve this problem we can seek help of rest operators.
+greetFriends('ashik', 'nahin', 'ali'); // here the parameters are fixed. i can not increase or decrease my friends names means parameters. to resolve this problem we seek help of rest operators.
 
 const greetUnlimitedFriends = (...friends: string[]) => {
     friends.forEach((friend) => {

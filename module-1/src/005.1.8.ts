@@ -24,7 +24,8 @@ console.log(personsName, city);
 const bhaginas: string[] = ['ahyan', 'zahran', 'hisham', 'omair', 'ahnaf'];
 
 const [x, y, kochi, ...restKochis] = bhaginas;
+const [, , , q] = bhaginas;
 
 console.log(kochi);
 console.log(restKochis);
-
+console.log(q);
