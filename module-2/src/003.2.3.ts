@@ -14,7 +14,7 @@
     const trueFalse: Array<boolean> = [false, true, true]; //generic
 }
 
-// dynamic resuable generic types
+// dynamic resusable generic types
 {
     type Generic<T> = Array<T>
 
@@ -64,6 +64,10 @@
 
 
     type GenericTuple<X, Y> = [X, Y]
+
+    const manushWithGT: GenericTuple<string, string> = ['ali', 'rayan']; // GT means Generic Tuple
+
+    const userWithId: GenericTuple<{ name: string, dept: string }, number> = [{ name: 'saif', dept: 'english' }, 20201121];
 
 }
 
