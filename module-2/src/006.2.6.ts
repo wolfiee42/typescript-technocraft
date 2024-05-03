@@ -1,6 +1,6 @@
 {
     // constraints
-
+// to become student parameters must have id, name, email. 
 
     const addCourseToStudent = <T extends { id: number; email: string; name: string }>(student: T) => {
         const course = 'Next level web development';
