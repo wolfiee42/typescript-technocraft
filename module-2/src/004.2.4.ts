@@ -1,13 +1,14 @@
 // generic reusable interface
 
-interface Developer<T> {
+interface Developer<T, Y = null> {
     devName: string;
     deviceName: {
         brand: string;
         model: string;
         realeaseYear: number;
     }
-    smartWatch: T
+    smartWatch: T;
+    bike?: Y;
 }
 
 
@@ -43,7 +44,13 @@ interface smartwatch2 {
     pulseCheck: boolean;
 }
 
-const devNum2: Developer<smartwatch2> = {
+interface bikeInterface {
+    brand: string;
+    model: string;
+    releaseYear: number;
+}
+
+const devNum2: Developer<smartwatch2, bikeInterface> = {
     devName: 'Mamun',
     deviceName: {
         brand: 'AMD Ryzen',
@@ -55,5 +62,10 @@ const devNum2: Developer<smartwatch2> = {
         model: 'gama series',
         heartrateCheck: false,
         pulseCheck: true
+    },
+    bike: {
+        brand: 'yamaha',
+        model: 'r15',
+        releaseYear: 2016,
     }
 }
