@@ -23,16 +23,18 @@ createArrWithTuple<string, number>('bangaldesh', 1971);
 createArrWithTuple<boolean, string>(true, 'greetings');
 
 
+
+
+interface Student {
+    name: string;
+    id: number;
+}
+
 const addCourseToStudent = <T>(student: T) => {
     const course = 'Next level web development';
     return {
         ...student, course
     }
-}
-
-interface Student {
-    name: string;
-    id: number;
 }
 
 addCourseToStudent<Student>({ name: 'saif', id: 1, })
