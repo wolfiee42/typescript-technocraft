@@ -45,4 +45,4 @@ class Poion extends Parent {
 
 const stu01 = new Student('Saif', 22, 'bakalia Access Road, Ctg');
 const teacher01 = new Teacher('Ashik', 20, 'Shahrah Al Hajj, Makkah', 'Professor');
-const poion01 = new Poion('mr.x', 33, 'somewhere in the world', 'gate-keeper')
+const poion01 = new Poion('mr.x', 33, 'somewhere in the world', 'gate-keeper');
