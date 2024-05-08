@@ -21,6 +21,7 @@ class Animal {
 
 const dog = new Animal('German Shepard', 'Dog', 'Ghew Ghew');
 const cat = new Animal('Persian', 'Cat', 'Meow Meow');
+const bullDog = new Animal('Persian', 'Dog', 'bark bark');
 cat.makeSound()
 dog.makeSound();
 

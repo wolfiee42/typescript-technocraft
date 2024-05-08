@@ -40,15 +40,16 @@
         abstract moveCar(): void
         test(): void {
             console.log(`testing the car.`);
+
         }
     }
 
     class hondaAccord extends Vehicle02 {
         startEngine(): void {
-            console.log('engine starting');
+            console.log('engine starting.');
         }
         stopEngine(): void {
-            console.log('stoping the engine');
+            console.log('stoping the engine.');
         }
         moveCar(): void {
             console.log('moving the car');
